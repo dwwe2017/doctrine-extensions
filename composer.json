@@ -1,0 +1,36 @@
+{
+    "name": "dwwe/doctrine-extensions",
+    "type": "library",
+    "description": "Doctrine2 extensions",
+    "keywords": [
+        "dwwe",
+        "doctrine2",
+        "extensions",
+        "bootstrap",
+        "validators"
+    ],
+    "homepage": "http://github.com/LeisureLarry/doctrine-extensions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Teriete",
+            "email": "leisure.larry@habmalnefrage.de",
+            "homepage": "http://blog-das-oertchen.de/"
+        },
+        {
+            "name": "DW Web-Engineering",
+            "email": "daniel@dwwe.de",
+            "homepage": "https://dwwe.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/orm": ">=2.4.0,<2.6-dev"
+    },
+    "conflict": {
+        "doctrine/orm": "2.4.3"
+    },
+    "autoload": {
+        "psr-0": { "DWWE": "lib/" }
+    }
+}
