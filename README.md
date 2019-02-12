@@ -1,6 +1,6 @@
 # doctrine-extensions
 
-## Webmasters Doctrine Extensions
+## DWWE Doctrine Extensions
 
 Just Another Doctrine2 Extension
 
